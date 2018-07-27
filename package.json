@@ -1,7 +1,18 @@
 {
   "name": "react-showhide-component",
   "version": "1.0.0",
-  "description": "",
+  "description": "React component for view more/view less functionalities.",
+  "keywords": [
+    "react",
+    "show more",
+    "show less",
+    "ellipsis",
+    "multiline",
+    "show more element",
+    "show less element",
+    "show text",
+    "hide text"
+  ],
   "author": "https://github.com/vaibhavdiwani",
   "license": "MIT",
   "repository": "https://github.com/vaibhavdiwani/react-showhide-component",
@@ -20,7 +31,8 @@
   "peerDependencies": {
     "prop-types": "^15.5.4",
     "react": "^15.0.0 || ^16.0.0",
-    "react-dom": "^15.0.0 || ^16.0.0"
+    "react-dom": "^15.0.0 || ^16.0.0",
+    "react-truncate": "2.3.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -52,5 +64,6 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {}
 }
