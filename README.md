@@ -6,8 +6,16 @@
 
 ## Install
 
+Using npm:
+
 ```bash
 npm install --save react-showhide-component
+```
+
+or using yarn:
+
+```bash
+yarn add react-showhide-component
 ```
 
 ## Usage
@@ -19,7 +27,7 @@ import ReactShowHideComponent from 'react-showhide-component'
 
 const arr = [1, 2, 3, 4, 5];
 
-class Example extends Component {
+export default class Example extends Component {
   render() {
     const listHtml = arr.map((elem, i) => {
       return <div key={i}>{elem}</div>;
@@ -35,9 +43,9 @@ class Example extends Component {
 |:--------------|:-------------------|:--------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------|
 | `items`  | string \| array           | undefined                                  | Array of elements of string |
 | `minItems`     | number           | undefined                                  | No of element(for array) / lines (for string) to show by default |
-| `mode`   | string           | array                                 | array or string  |
-| `viewMoreButton`         | element           | <div key={`view-more-${Math.random() * 1000}`}>View More</div>                                  | View more button |
-| `viewLessButton`           | element              | <div key={`view-less-${Math.random() * 1000}`}>View Less</div>                            | View less button |
+| `mode`   | string           | array                                 | 'array' or 'string'  |
+| `viewMoreButton`         | element           | <div>View More</div>                                  | View more button |
+| `viewLessButton`           | element              | <div>View Less</div>                            | View less button |
 
 ## License
 
